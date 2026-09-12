@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw external data (cloned from source repos) and derived processed data
+# are not committed: it's large (>1.4GB) and CC BY-NC-SA 4.0 licensed
+# (non-commercial, attribution required) — re-run notebooks/01_data_ingestion.ipynb
+# to regenerate. See data/external/README.md and each source's UPSTREAM_README.md.
+data/external/*
+!data/external/README.md
+data/processed/
+models/
+
+.DS_Store
